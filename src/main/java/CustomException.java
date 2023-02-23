@@ -6,5 +6,8 @@
  *
  * There is no need to modify this class.
  */
-public class CustomException extends Exception{
+public class CustomException extends Exception {
+    public CustomException() {
+        super("You caused an exceptionally exceptional exception!");
+    }
 }
